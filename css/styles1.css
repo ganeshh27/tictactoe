@@ -1,0 +1,49 @@
+/*!
+ * Start Bootstrap - Resume v5.0.8 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+
+body {
+  font-family: sans-serif;
+  padding-top: 54px;
+  color: #1d5a22;
+  background-color: #f3e1e1;
+}
+h2,#result{
+  color:#c70c0c;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  align-content:center;
+  font-style: italic;
+  
+}
+.form-control:focus{
+  outline:none;
+   border:rgba(24,149,215,1) 2px solid;
+   color:rgba(24,149,215,1);
+}
+.form-control{
+  display: inline;
+  width:100%;
+  height:60px;
+  margin:0px;
+  background-color: #f9b384; 
+}
+#result{
+  visibility: hidden;
+  background-color: #f3e1e1;
+  border-style:none;
+  font-size:2.5em
+  
+}
+
+label{
+  display:inline;
+  height:50px;
+  width:100%;
+  border-radius:0px;
+  padding:10px;
+  margin-right:0px;
+  margin-left:0px;
+
+}

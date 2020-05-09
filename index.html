@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>
+            Register here
+        </title>
+
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+        <link rel="stylesheet" href="css/styles1.css">
+        
+    </head>
+    
+    <body>
+    
+        <div class="container-fluid" id="boxes">
+        <div class="row justify-content-center ">
+            <div class="col-md-3">
+                <h2>TIC TAC TOE</h2>
+            </div>
+        </div>
+        <div class="row justify-content-center ">
+        <div class="col-md-3">
+            <div class="form-row">  
+            <div class="col-md-4 boxes">
+                <input type="button"  class="form-control" id="1" onclick="setval(this.id)">
+            </div>
+            <div class="col-md-4 boxes">
+                <input type="button" class="form-control" id="2" onclick="setval(this.id)">
+            </div>
+            <div class="col-md-4 boxes"> 
+                <input type="button" class="form-control" id="3" onclick="setval(this.id)">
+            </div>
+            </div>
+        </div>
+        </div>
+        <div class="row justify-content-center ">
+            
+            <div class="col-md-3 ">
+                <div class="form-row">
+                <div class="col-md-4 boxes">
+                    <input type="button" class="form-control" id="4" onclick="setval(this.id)">
+                </div>
+                <div class="col-md-4 boxes">
+                    <input type="button" class="form-control" id="5" onclick="setval(this.id)">
+                </div>
+                <div class="col-md-4 boxes">
+                    <input type="button" class="form-control" id="6" onclick="setval(this.id)">
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="row justify-content-center ">
+            
+            <div class="col-md-3">
+                    <div class="form-row">
+                    <div class="col-md-4 boxes">
+                        <input type="button" class="form-control" id="7" onclick="setval(this.id)">
+                    </div>
+                    <div class="col-md-4 boxes">
+                        <input type="button" class="form-control" id="8" onclick="setval(this.id)">
+                    </div>
+                    <div class="col-md-4 boxes">
+                        <input type="button" class="form-control" id="9" onclick="setval(this.id)">
+                    </div>
+                    </div>
+            </div>
+        </div>
+        <div class="row justify-content-center ">
+            
+            <button type="submit" class="btn btn-primary" id="restart" onclick="window.location.reload()">Restart</button>
+
+        </div>
+        <div class="row justify-content-center ">
+        <div class="form-group col-md-3 ">
+            <textarea rows="2" id="result"></textarea>
+        </div>
+        </div>
+        </div>
+    </div>
+    </div>
+        <script src="app.js"></script>
+    <body
+
